@@ -1,0 +1,61 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <title>Personal Portfolio</title>
+</head>
+<body>
+  <nav id="navbar">
+    <ul>
+      <li><a href="#Welcome-section">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Project">Project</a></li>
+    </ul>
+  </nav>
+   
+  <main>
+    <section id="Welcome-section" class="Welcome-section">
+      <h1>Hey, I am Cornelius</h1>
+      <p>a web designer</p>
+      <p>currently learning on the freecodecamp website</p>
+    </section>
+    <section id="Project" class="Project">
+      <h1>These are some of my projects.</h1> 
+      <ul class="project-col">
+        <li class="preoject-tile">
+          <a href="https://codepen.io/frcodecamp/full/QxweeG" target="_blank">
+            <img height: 100  src="https://codepen.io/frcodecamp/pen/QxweeG/image/small.png" alt="freeCodeCamp : Build a Tribute Page" class="responsive">
+            <div>Tribute Page</div>
+          </a>
+        </li>
+        <li class="project-row">
+          <a href="https://codepen.io/frcodecamp/full/LrbzpV" target="_blank">
+             <img src="https://codepen.io/frcodecamp/pen/LrbzpV/image/small.png" alt="freeCodeCamp : Build a Technical Documentation Page" class="responsive">
+            <div>Technical Documentation Page</div>
+          </a>
+        </li>
+        <li class="project-row">
+          <a href="https://codepen.io/frcodecamp/full/LrVPgP" target="_blank">
+        <img src="https://codepen.io/frcodecamp/pen/LrVPgP/image/small.png" alt="freeCodeCamp : Build a Survey Form" class="responsive">
+        <div>Survey Form</div>
+        </a>
+        </li>
+        <li class="project-row">
+          <a href="https://codepen.io/frcodecamp/full/ZROoPN" target="_blank">
+        <img src="https://codepen.io/frcodecamp/pen/ZROoPN/image/small.png" alt="freeCodeCamp : Build a Product Landing Page" class="responsive">
+        <div> Product Landing Page</div>
+        </a>
+        </li>
+      </ul>
+        <a href="https://codepen.io/frcodecamp" target="_blank">Show all</a>
+    </section>
+    <section id="About">
+      <h1>You can know more about my work</h1>
+      <div id= "box">
+        <a classs="profile-link"  href="https://github.com/CornelVince/cornell-vince">Github</a>  
+        </div>
+      
+    </section>
+  </main>
+</body>
+</html>
